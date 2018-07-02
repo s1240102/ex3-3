@@ -4,6 +4,10 @@
 int main() {
 
   int rollADie1, rollADie2, totalDice, key = 0, key2 = 0, end = 0;
+  char s[10];
+  printf("What is your name?\n");
+  scanf("%s",s);
+  printf("Hello, %s!\n",s);
   printf("Rolling the dice...\n");
 
   
